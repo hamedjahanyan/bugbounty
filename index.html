@@ -1,12 +1,12 @@
 		<html>
   <head>
-     <link rel="stylesheet" href="/scss/styles.scss">
-	 <link rel="stylesheet" href="/scss/freelancer.scss">
-	 <link rel="stylesheet" href="/scss/report.css">
-	 <link rel="stylesheet" href="/scss/_global.scss">
-	 <link rel="stylesheet" href="scss/_variables.scss">
-	 <link rel="stylesheet" href="scss/main.0cca6ff6.css">
-	 <link rel="stylesheet" href="scss/_footer.scss">
+     <link rel="stylesheet" href="/bugbounty/scss/styles.scss">
+	 <link rel="stylesheet" href="/bugbounty/scss/freelancer.scss">
+	 <link rel="stylesheet" href="/bugbounty/scss/report.css">
+	 <link rel="stylesheet" href="/bugbounty/scss/_global.scss">
+	 <link rel="stylesheet" href="/bugbounty/scss/_variables.scss">
+	 <link rel="stylesheet" href="/bugbounty/scss/main.0cca6ff6.css">
+	 <link rel="stylesheet" href="/bugbounty/scss/_footer.scss">
 	 
       <meta name="description" content="تیم امنیت اسنپ با راه‌اندازی برنامه باگ بانتی تمام متخصصین تست نفوذ را به چالش این برنامه دعوت می‌کند." />
 	  <link rel="canonical" href="https://snapp.ir/bugbounty/" />
@@ -69,6 +69,7 @@ function readTextFile(file, callback) {
 
 
 const myHeaders = new Headers();
+	   const teams;
 myHeaders.append("Access-Control-Allow-Origin", "*");
 
 fetch("teams.json"/*, {
