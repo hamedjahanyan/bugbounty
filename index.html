@@ -85,7 +85,7 @@ myHeaders.append("Access-Control-Allow-Origin", "*");
     return response.json();
 })
 .then(data => {
-	gen(JSON.parse(data.toString()));
+	gen(JSON.stringify(data));
     console.log(data);
 })
 .catch(error => {
