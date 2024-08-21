@@ -1,0 +1,293 @@
+@font-face {
+  font-family: IRANSansMobile-fa-bold;
+  font-style: normal;
+  font-weight: bold;
+  src: url('https://passenger-pwa-cdn.snapp.ir/fonts/Iran-sans-fa/fa-Iran-sans-web-bold.eot');
+  src: url('https://passenger-pwa-cdn.snapp.ir/fonts/Iran-sans-fa/fa-Iran-sans-web-bold.eot?#iefix') format('embedded-opentype'),
+    /* IE6-8 */
+  url('https://passenger-pwa-cdn.snapp.ir/fonts/Iran-sans-fa/fa-Iran-sans-web-bold.woff2') format('woff2'),
+    /* FF39+,Chrome36+, Opera24+*/
+  url('https://passenger-pwa-cdn.snapp.ir/fonts/Iran-sans-fa/fa-Iran-sans-web-bold.woff') format('woff'),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('https://passenger-pwa-cdn.snapp.ir/fonts/Iran-sans-fa/fa-Iran-sans-web-bold.ttf') format('truetype');
+  font-display: fallback;
+}
+@font-face {
+  font-family: IRANSansMobile-fa;
+  font-style: normal;
+  font-weight: normal;
+  src: url('https://passenger-pwa-cdn.snapp.ir/fonts/Iran-sans-fa/fa-Iran-sans-web-bold.eot');
+  src: url('https://passenger-pwa-cdn.snapp.ir/fonts/Iran-sans-fa/fa-Iran-sans-web-bold.eot?#iefix') format('embedded-opentype'),
+    /* IE6-8 */
+  url('https://passenger-pwa-cdn.snapp.ir/fonts/Iran-sans-fa/fa-Iran-sans-web-bold.woff2') format('woff2'),
+    /* FF39+,Chrome36+, Opera24+*/
+  url('https://passenger-pwa-cdn.snapp.ir/fonts/Iran-sans-fa/fa-Iran-sans-web-bold.woff') format('woff'),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('https://passenger-pwa-cdn.snapp.ir/fonts/Iran-sans-fa/fa-Iran-sans-web-bold.ttf') format('truetype');
+  font-display: fallback;
+}
+
+body {
+  font-family: IRANSansMobile-fa, serif;
+  font-weight: normal;
+
+}
+
+.nav-item{
+  :hover {
+    cursor: pointer !important;
+    color: #21aa58!important;
+  }
+}
+li {
+  padding-bottom: 10px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: IRANSansMobile-fa, serif;
+}
+.container {
+  direction: rtl;
+  text-align: right;
+}
+
+.container.section {
+  margin-top: 2%;
+}
+.text-uppercase {
+  text-align: center!important;
+}
+// Custom Horizontal Rule with Star Icon
+hr.star-light,
+hr.star-dark {
+  max-width: 15rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.venture {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #525252;
+}
+.prize{
+  text-align: center;
+}
+.centered {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  top: 25%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+.vital-centered {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.vulnerabilities {
+  padding-bottom: 10px;
+  text-align: center;
+  padding-left: 0!important;
+}
+.hunters-badges{
+  height: 40px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+.badges {
+  padding-right: 15% !important;
+  padding-top: 5% !important;
+  padding-left: 0px !important;
+}	
+.report {
+  width: 80%;
+  text-align: center;
+}
+.report-text{
+  margin-top: 10%;
+}
+.hunter-name {
+  color: black;
+  position: absolute;
+  text-align: center;
+  font-size: smaller;
+  font-weight: bold;
+  left: 45%;
+  top: 148px;
+  transform: translate(-50%, -50%);
+}
+.ranking-table {
+    align-content: center;
+    border: 2px solid rgb(33, 170, 88);
+    width: 50%;
+    margin-left: 15%;
+}
+.ranking-table-td {
+    border: 2px solid rgb(33, 170, 88);
+}
+.ranking-avatar {
+    width: 50px !important;
+    height: 50px !important;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.bounties {
+  color: black;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  left: 45%;
+  top: 168px;
+  transform: translate(-50%, -50%);
+}
+.hunters{
+  text-align: center;
+  margin-bottom: 5%;
+}
+.vulnerability {
+  border-spacing: 100px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.vuln{
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.gold{
+  width: 80% !important;
+  margin-bottom: 25px;
+}
+.silver{
+  width: 80% !important;
+  margin-bottom: 25px;
+}
+.bronze{
+  width: 80% !important;
+  margin-bottom: 25px;
+}
+.vital{
+  width: 80% !important;
+  margin-bottom: 25px;
+}
+.description{
+  text-align: center;
+  line-height: 1.7em;
+  direction: rtl;
+}
+.exclude{
+  width: 90%;
+  height: auto;
+}
+.copy-right{
+  text-align: center;
+}
+.warning{
+  color: #ffffff;
+}
+.english-content{
+  text-align: left!important;
+  direction: ltr!important;
+  font: 16px/1.5 "Helvetica Neue", Helvetica,arial,freesans,clean,sans-serif;
+}
+hr.star-light:after,
+hr.star-dark:after {
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+  padding: 0 0.25em;
+  content: '\2605';
+  font-family: FontAwesome;
+  font-size: 2em;
+}
+.send-report {
+  margin-top: 50px;
+  background: transparent;
+  color: white;
+  border: dotted;
+  cursor: pointer;
+}
+.send-report:hover {
+  transform: scale(1.1);
+}
+
+hr.star-light {
+  border-color: $white;
+}
+hr.star-light:after {
+  color: $white;
+  background-color: $primary;
+}
+
+hr.star-dark {
+  border-color: $secondary;
+}
+hr.star-dark:after {
+  color: $secondary;
+  background-color: white;
+}
+
+// Section Padding Settings
+section {
+  padding: 6rem 0;
+  h2 {
+    font-size: 2.25rem;
+    line-height: 2rem;
+  }
+  @media (min-width: 992px) {
+    h2 {
+      font-size: 3rem;
+      line-height: 2.5rem;
+    }
+  }
+}
+.vital-section {
+  padding: 0 !important;
+  padding-bottom: 5% !important;
+}
+
+// Custom Button Size
+.btn-xl {
+  padding: 1rem 1.75rem;
+  font-size: 1.25rem;
+}
+
+// Custom Rounded Social Button
+.btn-social {
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+// Scroll to Top Button
+.scroll-to-top {
+  z-index: 1042;
+  right: 1rem;
+  bottom: 1rem;
+  a {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: fade-out($gray-900, 0.5);
+    line-height: 3.1rem;
+  }
+}
+.sb-avatar__image{
+	object-fit: cover!important;
+	width: 150px!important;
+	height: 150px!important;
+	max-width: 150px!important;
+}
