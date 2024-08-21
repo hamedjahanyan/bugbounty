@@ -1,0 +1,213 @@
+		<html>
+  <head>
+     <link rel="stylesheet" href="./scss/styles.scss">
+	 <link rel="stylesheet" href="./scss/freelancer.scss">
+	 <link rel="stylesheet" href="./scss/report.css">
+	 <link rel="stylesheet" href="./scss/_global.scss">
+	 <link rel="stylesheet" href="./scss/_variables.scss">
+	 <link rel="stylesheet" href="./scss/main.0cca6ff6.css">
+	 <link rel="stylesheet" href="./scss/_footer.scss">
+	 
+      <meta name="description" content="تیم امنیت اسنپ با راه‌اندازی برنامه باگ بانتی تمام متخصصین تست نفوذ را به چالش این برنامه دعوت می‌کند." />
+	  <link rel="canonical" href="https://snapp.ir/bugbounty/" />
+	  <meta property="og:title" content="برنامه باگ بانتی اسنپ!" />
+	  <meta property="og:type" content="website" />
+	  <meta property="og:url" content="https://snapp.ir/bugbounty/" />
+	  <meta property="og:image" content="https://snapp.ir/assets/images/logo/logo.png" />
+	  <title>برنامه باگ بانتی اسنپ!</title>
+	  
+	<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="@snapp_team" />
+		<meta name="twitter:title" content="برنامه باگ بانتی اسنپ!" />
+		<meta name="twitter:description" content="تیم امنیت اسنپ با راه‌اندازی برنامه باگ بانتی تمام متخصصین تست نفوذ را به چالش این برنامه دعوت می‌کند." />
+		<meta name="twitter:image" content="https://snapp.ir/assets/images/logo/logo.png" />
+
+ </head>
+ 
+ 
+  <body style="background-color:#1c9955; background-image:url('./scss/BoardArtboard.svg');background-repeat:no-repeat;background-size:100%; width:100%; height:100%; background-position:center; position:center">
+  <div id="back" style="height:15%">
+  </div>
+                <section id="payments" style="margin-top:0%; padding:1px" >
+                <div class="container section">
+                    <!--<h2 class="text-center text-uppercase text-dark">گزارش های ارسال شده</h2> 
+                    <hr class="star-dark mb-5"/>-->
+					<hr style="background-color:#fff;height:1px"/>
+                <table dir='ltr' align='center' style = "width:90%;margin-top:10px;font-size: 1.7em;">
+
+                <thead><tr style="text-align: center;padding:10px;font-family:Helvetica, serif;color: #fff;font-size: 1.6em;height:90px"><th class="">Rank</th><th class="">Team</th><th class="">Reports </th></tr></thead>
+                <tbody id= "tbl">
+      
+          </tbody>
+        </table>
+        </div></section>
+		<!-- <a href="https://drive.usercontent.google.com/download?id=1JLOiGwdgtTrJIsRcS0pJ9SUHcaMwFRVP&export=download&authuser=0" download id="download" hidden></a>-->
+
+		<!--<script type="text/javascript" src="https://drive.google.com/file/d/1JLOiGwdgtTrJIsRcS0pJ9SUHcaMwFRVP/view?usp=drive_link"></script> -->
+ <iframe id ="iframeID" src="https://drive.google.com/file/d/1MSrxYb5hxNGb9PUXJ0rix8RxYArq-Al6/view?usp=drive_link"></iframe>
+
+  </body>
+   <script type="text/javascript">
+   /*
+function readTextFile(file, callback) {
+    var rawFile = new XMLHttpRequest();
+    rawFile.overrideMimeType("application/json");
+    rawFile.open("GET", file, true);
+    rawFile.onreadystatechange = function() {
+        if (rawFile.readyState === 4 && rawFile.status == "200") {
+            callback(rawFile.responseText);
+        }
+    }
+    rawFile.send(null);
+}*/
+
+//usage:
+/*readTextFile("https://s32.picofile.com/d/8478537992/98de8ba8-f202-416e-bd9a-95b13ca50a5e/teams.json", function(text){
+    teams = JSON.parse(text);
+    console.log(data);
+});*/
+
+/*
+const myHeaders = new Headers();
+myHeaders.append("Access-Control-Allow-Origin", "*");
+
+fetch("https://drive.google.com/file/d/1PR9AesybWVs-CoaFNSxa3wvX3CloalN3/view?usp=drive_link", {
+  mode:  'no-cors' ,
+  method: 'GET', 
+  headers : myHeaders
+  })
+.then(response => {
+    if (!response.ok) {
+        throw new Error('Network response was not ok');
+    }
+	console.log(response)
+    return response.json();
+})
+.then(data => {
+    console.log(data);
+})
+.catch(error => {
+    console.error('There was a problem with the fetch operation:', error);
+});
+*/
+/*
+	// import teams from 'file:///C:/Users/Snapp!/Downloads/teams.json';
+	
+
+	exportName = "teams" ;
+	function downloadObjectAsJson(exportObj, exportN){
+    var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(exportObj));
+    var downloadAnchorNode = document.createElement('a');
+    downloadAnchorNode.setAttribute("href",     dataStr);
+    downloadAnchorNode.setAttribute("download", exportN + ".json");
+    document.body.appendChild(downloadAnchorNode); // required for firefox
+    downloadAnchorNode.click();
+    downloadAnchorNode.remove();
+	
+	//teams = JSON.parse(text);
+  } */ 
+  
+//  downloadObjectAsJson("https://drive.google.com/file/d/1PR9AesybWVs-CoaFNSxa3wvX3CloalN3/view?usp=drive_link", "teams");
+  
+
+		
+	teams = 
+   [{
+    "name": "lev3lup",
+    "report": 0
+    
+  },{
+    "name": "WTN",
+    "report": 0
+    
+  },{
+    "name": "DarkPwners",
+    "report": 0
+    
+  },{
+    "name": "PAM",
+    "report": 0
+    
+  },{
+    "name": "B1n4ry B0y5",
+    "report": 0
+    
+  },{
+    "name": "Duty",
+    "report": 0
+    
+  },{
+    "name": "Repeater",
+    "report": 0
+    
+  },{
+    "name": "flag motori",
+    "report": 0
+    
+  },{
+    "name": "Disqualified",
+    "report": 0
+    
+  },{
+    "name": "me_name",
+    "report": 0
+    
+  },{
+    "name": "Sleepyheads",
+    "report": 0
+    
+  },{
+    "name": "silent",
+    "report": 0
+    
+  },{
+    "name": "Hades",
+    "report": 0
+    
+  },{
+    "name": "HexTor",
+    "report": 0
+    
+  }]
+
+teams.sort((a, b) => {
+                    if(a.report > b.report) { return -1; }
+                    if(a.report < b.report) { return 1; }
+                    return 0;
+                   });  
+
+var i = 1;
+
+//console.log(teams);
+for (var key in teams) {
+  
+    var name = teams[key].name;
+    var report = teams[key].report;
+    var team = document.createElement('tr');
+    team.className = ' ';
+    team.innerHTML =
+                '<td style= "width:30%;text-align:center;padding:1px 5px 1px 5px;font-family:Helvetica, serif;">' + 
+                
+                '<h4 data-nosnippet class="reports-c54a9 reports-f60cf">' + i + '</h4>             </td>'
+				
+                 + '<td style= "width:40%;text-align:center;padding:1px 5px 1px 5px;font-family:Helvetica, serif;border-bottom: 1px solid #ccc;"> ' +
+				'<div class="reports-ea237"><div class="hunter-be8c0 hunter-d48d4" data-tip-pos="" aria-label=""></div> ' + 
+                 ' <h4 data-nosnippet class="reports-c54a9 reports-f60cf" style="margin-bottom:0">' + name +'</h4> </div></td>' +
+				
+                '<td style= "width:30%;text-align:center;padding:1px 5px 1px 5px;"> ' +
+                '<span data-badge="" class="badge-ce8bd badge-c10fb" data-tip-pos="" aria-label="" style="font-size: 1.5em;height:40px">' + report + '</span> </td>                </tr>';
+	i += 1;
+	//console.log(name);
+    document.getElementById('tbl').appendChild(team);
+  
+}
+
+function foo(){
+       window.location.reload(1);
+}
+
+setInterval(foo, 900000); // one hour check
+
+	 </script>
+  </html>
+ 
