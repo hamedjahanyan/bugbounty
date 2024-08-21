@@ -85,7 +85,7 @@ myHeaders.append("Access-Control-Allow-Origin", "*");
     return response.json();
 })
 .then(data => {
-	teams = data;
+	teams = JSON.stringify(data);
     ///console.log(data);
 })
 .catch(error => {
