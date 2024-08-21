@@ -72,7 +72,7 @@ const myHeaders = new Headers();
 	   const teams = "";
 myHeaders.append("Access-Control-Allow-Origin", "*");
 
-fetch("teams.json"/*, {
+teams = fetch("teams.json"/*, {
   mode:  'no-cors' ,
   method: 'GET', 
   headers : myHeaders
@@ -84,10 +84,10 @@ fetch("teams.json"/*, {
 	console.log(response)
     return response.json();
 })
-.then(data => {
+/*.then(data => {
 	teams = data;
     ///console.log(data);
-})
+})*/
 .catch(error => {
     console.error('There was a problem with the fetch operation:', error);
 });
