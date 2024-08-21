@@ -218,15 +218,7 @@ for (var key in teams) {
 function foo(){
        //window.location.reload(true);
 	//location.replace(location.href) ; //'https://hamedjahanyan.github.io/bugbounty/');
-	if ('performance' in window) {
-  const navigationLastEntry = performance.getEntriesByType('navigation').pop();
-
-  if (navigationLastEntry
-      && navigationLastEntry.type === 'back_forward'
-      && navigationLastEntry.unloadEventStart === 0) {
-    window.location.reload(true);
-  }
-}
+window.location.reload(true);}
 }
 
 setInterval(foo, 9000); // one hour check
