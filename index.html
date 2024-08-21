@@ -81,12 +81,12 @@ myHeaders.append("Access-Control-Allow-Origin", "*");
     if (!response.ok) {
         throw new Error('Network response was not ok');
     }
-	console.log(response)
+	//console.log(response)
     return response.json();
 })
 .then(data => {
 	teams = JSON.stringify(data);
-    ///console.log(data);
+    console.log(data);
 })
 .catch(error => {
     console.error('There was a problem with the fetch operation:', error);
