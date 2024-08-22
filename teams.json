@@ -20,7 +20,7 @@
     
   },{
     "name": "Duty",
-    "report": 13
+    "report": 21
     
   },{
     "name": "Repeater",
@@ -32,7 +32,7 @@
     
   },{
     "name": "Disqualified",
-    "report": 0
+    "report": 1
     
   },{
     "name": "me_name",
@@ -52,6 +52,6 @@
     
   },{
     "name": "HexTor",
-    "report": 0
+    "report": 1
     
   }]
