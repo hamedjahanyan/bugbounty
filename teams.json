@@ -32,7 +32,7 @@
     
   },{
     "name": "Disqualified",
-    "report": 7
+    "report": 7 // -1 repetetive report
     
   },{
     "name": "me_name",
@@ -52,6 +52,6 @@
     
   },{
     "name": "HexTor",
-    "report": 3
+    "report": 3 // -1 repetetive report
     
   }]
